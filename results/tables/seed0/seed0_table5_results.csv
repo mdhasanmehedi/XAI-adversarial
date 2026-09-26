@@ -1,0 +1,8 @@
+attack,n_attempted,surrogate_asr,n_surrogate_success,target_transfer_asr,target_transfer_asr_untargeted,median_edits
+adjacent_swap,2000,0.1325,265,0.3962,0.4264,5.0
+domain_path_tld_transform,2000,0.104,208,0.5144,0.5337,3.0
+one_shot,500,0.428,214,0.4673,0.5093,5.0
+random_deletion,2000,0.15,300,0.6767,0.69,6.0
+random_insertion,2000,0.1865,373,0.4692,0.4933,6.0
+random_substitution,2000,0.1565,313,0.4856,0.4984,6.0
+segment_manipulation,2000,0.073,146,0.2808,0.3151,4.0
