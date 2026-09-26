@@ -1,4 +1,0 @@
-attack,n_eligible,n_success,asr,median_edits,defense
-random_substitution,497,60,0.1207,7.0,none
-segment_manipulation,497,28,0.0563,6.5,none
-one_shot (guided),497,114,0.2294,5.0,none

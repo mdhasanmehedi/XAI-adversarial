@@ -1,5 +1,0 @@
-defense,clean_acc,robust_acc_vs_guided,asr_vs_guided,median_edit_cost_vs_guided
-none,0.9775,0.5508,0.4492,4.0
-fgm,0.981,0.7379,0.2621,6.0
-charaug,0.9782,0.8421,0.1579,5.0
-combined,0.9799,0.8451,0.1549,7.0
