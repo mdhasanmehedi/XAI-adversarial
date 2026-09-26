@@ -1,0 +1,8 @@
+attack,n_seeds,surrogate_asr,n_surrogate_success,target_transfer_asr_mean,target_transfer_asr_std,target_transfer_asr_untargeted_mean,target_seeds_included
+domain_path_tld_transform,5,0.104,208,0.4836,0.0926,0.5019,"[0, 1, 2, 3, 4]"
+random_deletion,5,0.15,300,0.4607,0.1211,0.4993,"[0, 1, 2, 3, 4]"
+random_substitution,5,0.1565,313,0.3655,0.0794,0.407,"[0, 1, 2, 3, 4]"
+one_shot,5,0.428,214,0.3318,0.0994,0.3906,"[0, 1, 2, 3, 4]"
+random_insertion,5,0.1865,373,0.3206,0.106,0.3694,"[0, 1, 2, 3, 4]"
+segment_manipulation,5,0.073,146,0.2959,0.0536,0.3329,"[0, 1, 2, 3, 4]"
+adjacent_swap,5,0.1325,265,0.2905,0.0719,0.3328,"[0, 1, 2, 3, 4]"
