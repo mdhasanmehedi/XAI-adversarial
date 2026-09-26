@@ -1,9 +1,0 @@
-method,n_seeds,pooled_rho_mean,n_seeds_pooled_sig_positive,n_seeds_pooled_sig_negative,adjusted_rho_mean,n_seeds_adjusted_sig_positive,n_seeds_adjusted_sig_negative
-adaptive,5,0.0181,1,1,-0.0695,0,1
-adjacent_swap,5,0.0373,0,0,-0.0839,0,1
-domain_path_tld_transform,5,0.1546,2,0,-0.0813,0,0
-one_shot,5,0.2399,5,0,-0.0355,0,1
-random_deletion,5,0.1739,3,0,0.0088,0,0
-random_insertion,5,0.0738,1,0,-0.0575,0,0
-random_substitution,5,0.0668,0,0,-0.0546,0,1
-segment_manipulation,5,0.1428,1,0,0.0123,0,0
