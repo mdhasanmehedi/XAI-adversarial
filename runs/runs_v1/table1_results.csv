@@ -1,6 +1,0 @@
-seed,accuracy,macro_f1,f1_benign,f1_phishing,f1_malware,f1_defacement,checkpoint
-0,0.9797,0.9692,0.9881,0.9305,0.9651,0.9931,../runs/runs_v1/model_seed0.pt
-1,0.98,0.9694,0.9884,0.9337,0.9654,0.99,../runs/runs_v1/model_seed1.pt
-2,0.9768,0.9641,0.986,0.9277,0.9531,0.9896,../runs/runs_v1/model_seed2.pt
-3,0.9814,0.9713,0.9891,0.9351,0.9666,0.9944,../runs/runs_v1/model_seed3.pt
-4,0.9773,0.9657,0.9866,0.9264,0.9607,0.989,../runs/runs_v1/model_seed4.pt
