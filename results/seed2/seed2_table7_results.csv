@@ -1,0 +1,5 @@
+defense,faithfulness_before,faithfulness_after,change,n
+none,0.2898,0.3328,0.043,495
+fgm,0.2883,0.2803,-0.008,492
+charaug,0.2895,0.3103,0.0208,491
+combined,0.2874,0.31,0.0226,492
