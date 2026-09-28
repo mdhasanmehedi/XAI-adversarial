@@ -1,0 +1,2 @@
+seed,accuracy,macro_f1,f1_benign,f1_phishing,f1_malware,f1_defacement,checkpoint
+0,0.9692,0.9554,0.9814,0.9037,0.9536,0.9827,../runs/sanity_check/model_seed0.pt
