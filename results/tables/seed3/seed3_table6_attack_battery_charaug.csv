@@ -1,0 +1,4 @@
+attack,n_eligible,n_success,asr,median_edits,defense
+random_substitution,491,45,0.0916,6.0,charaug
+segment_manipulation,491,37,0.0754,4.0,charaug
+one_shot (guided),491,114,0.2322,6.0,charaug
