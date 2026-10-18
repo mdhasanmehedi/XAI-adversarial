@@ -1,0 +1,7 @@
+mode,metric,expected_sign,pooled_rho,pooled_p,n_points,mean_within_seed_rho,seeds_with_expected_sign,n_seeds
+adaptive,deletion_auc,negative,-0.475,0.07357086204591357,15,-0.7000000000000001,3,3
+adaptive,comprehensiveness,positive,0.907142857142857,3.0633105354938695e-06,15,0.7999999999999998,3,3
+adaptive,sufficiency,negative,-0.28928571428571426,0.29566536100437774,15,-0.5333333333333333,3,3
+one_shot,deletion_auc,negative,-0.2964285714285714,0.2833554284342631,15,-0.43333333333333335,3,3
+one_shot,comprehensiveness,positive,0.7249999999999999,0.0022270323137542148,15,0.6666666666666666,3,3
+one_shot,sufficiency,negative,-0.125,0.6571356681869506,15,-0.6,3,3
