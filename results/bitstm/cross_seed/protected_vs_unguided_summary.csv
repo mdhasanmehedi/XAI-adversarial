@@ -1,0 +1,11 @@
+mode,ranker,asr_mean,ref_mean,seeds_above_ref,seeds_sig_above,seeds_sig_below
+adaptive,gradxinput,0.086,0.074,2.0,1.0,0.0
+adaptive,ig,0.1147,0.074,3.0,2.0,0.0
+adaptive,occlusion,0.1673,0.074,3.0,3.0,0.0
+adaptive,random,0.0507,0.074,0.0,0.0,2.0
+adaptive,saliency,0.058,0.074,0.0,0.0,0.0
+one_shot,gradxinput,0.0633,0.074,1.0,0.0,1.0
+one_shot,ig,0.0787,0.074,2.0,0.0,0.0
+one_shot,occlusion,0.1107,0.074,3.0,1.0,0.0
+one_shot,random,0.0507,0.074,0.0,0.0,1.0
+one_shot,saliency,0.062,0.074,1.0,0.0,0.0
