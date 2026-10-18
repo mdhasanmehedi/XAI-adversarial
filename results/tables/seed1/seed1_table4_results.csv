@@ -1,0 +1,9 @@
+group,n_total,n_success,asr,deletion_auc_mean,comprehensiveness_mean,sufficiency_mean,median_edits_on_success,median_queries_on_success,spearman_rho_deletion_auc_vs_efficiency,ci95_lo_deletion_auc,ci95_hi_deletion_auc,class_adjusted_rho_deletion_auc,class_adjusted_ci95_lo,class_adjusted_ci95_hi,spearman_rho_comprehensiveness_vs_efficiency,ci95_lo_comprehensiveness,ci95_hi_comprehensiveness,spearman_rho_sufficiency_vs_efficiency,ci95_lo_sufficiency,ci95_hi_sufficiency
+adaptive,500,91,0.182,0.3532,0.6991,0.5714,4.0,4.0,0.2953,0.0975,0.4734,0.0419,-0.175,0.2651,-0.3206,-0.5011,-0.1265,0.141,-0.0542,0.3293
+adjacent_swap,1000,85,0.085,0.337,0.6973,0.5749,6.0,6.0,-0.101,-0.305,0.1202,-0.1784,-0.3813,0.0413,0.0879,-0.1402,0.2878,-0.1076,-0.3035,0.1029
+domain_path_tld_transform,1000,180,0.18,0.337,0.6973,0.5749,4.0,4.0,0.2884,0.137,0.4229,-0.012,-0.1642,0.1367,-0.3042,-0.4354,-0.1563,-0.1105,-0.2576,0.0364
+one_shot,500,93,0.186,0.3532,0.6991,0.5714,5.0,5.0,0.2163,0.0092,0.4154,0.0092,-0.1857,0.2087,-0.1587,-0.3643,0.0572,-0.0757,-0.2863,0.1438
+random_deletion,1000,117,0.117,0.337,0.6973,0.5749,5.0,5.0,0.0455,-0.1441,0.2271,,,,-0.1987,-0.3789,-0.0129,-0.1257,-0.3089,0.0686
+random_insertion,1000,107,0.107,0.337,0.6973,0.5749,6.0,6.0,0.0091,-0.1789,0.2108,,,,-0.1344,-0.3211,0.0634,-0.1512,-0.3248,0.0398
+random_substitution,1000,129,0.129,0.337,0.6973,0.5749,7.0,7.0,0.0972,-0.0883,0.2679,-0.0457,-0.2139,0.1239,-0.1772,-0.3463,0.0119,-0.0995,-0.2698,0.0708
+segment_manipulation,1000,49,0.049,0.337,0.6973,0.5749,5.0,5.0,0.1554,-0.1492,0.4235,,,,-0.2834,-0.5454,0.0231,-0.0626,-0.3292,0.2151
