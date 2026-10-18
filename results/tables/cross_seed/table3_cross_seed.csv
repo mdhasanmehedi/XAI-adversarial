@@ -1,9 +1,0 @@
-method,n_seeds,asr_targeted_mean,asr_targeted_std,budget_auc_mean,budget_auc_std,effect_size_mean,n_seeds_mcnemar_sig,sig_seeds_beat_reference,sig_seeds_underperform_reference
-one_shot,1,0.337,,0.1889,,-0.1908,1,[0],[]
-adaptive,1,0.275,,0.1643,,-0.2235,1,[0],[]
-random_insertion,1,0.2131,,0.1086,,,0,[],[]
-random_deletion,1,0.1942,,0.1005,,-0.0628,1,[],[0]
-random_substitution,1,0.1912,,0.0988,,0.0002,1,[],[0]
-domain_path_tld_transform,1,0.1327,,0.1062,,-0.7098,1,[],[0]
-adjacent_swap,1,0.1261,,0.0658,,-0.0475,1,[],[0]
-segment_manipulation,1,0.0568,,0.0353,,-0.2744,1,[],[0]
