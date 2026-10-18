@@ -1,0 +1,13 @@
+mode,budget,asr_targeted,asr_untargeted,median_edits,median_queries,n_attacked
+adaptive,1,0.032,0.032,1.0,1.0,500
+adaptive,2,0.07,0.07,2.0,2.0,500
+adaptive,3,0.102,0.102,2.0,2.0,500
+adaptive,5,0.158,0.158,3.0,3.0,500
+adaptive,8,0.198,0.198,3.0,3.0,500
+adaptive,10,0.22,0.22,4.0,4.0,500
+one_shot,1,0.036,0.036,1.0,1.0,500
+one_shot,2,0.066,0.066,1.0,1.0,500
+one_shot,3,0.106,0.106,2.0,2.0,500
+one_shot,5,0.142,0.142,3.0,3.0,500
+one_shot,8,0.196,0.196,3.0,3.0,500
+one_shot,10,0.246,0.246,4.0,4.0,500
