@@ -1,5 +1,0 @@
-defense,faithfulness_before,faithfulness_after,change,n
-none_seed0,0.3364,0.3237,-0.0127,498
-fgm_seed0,0.3329,0.3551,0.0222,494
-charaug_seed0,0.3352,0.2721,-0.0631,496
-combined_seed0,0.3336,0.3457,0.0121,495
