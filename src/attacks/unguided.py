@@ -26,7 +26,7 @@ import pandas as pd
 import torch
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))  # add src/ to path
-from model import CharCNNTransformer, build_char_vocab, encode_url  # noqa: E402
+from model import CharCNNTransformer, build_char_vocab, encode_url, build_model  # noqa: E402
 from train import get_device  # noqa: E402
 from attacks.validity import is_valid_url  # noqa: E402
 from attacks.transforms import METHODS  # noqa: E402
@@ -50,7 +50,7 @@ def load_model(checkpoint_path, vocab_size, max_len, device):
         arch = json.loads(arch_path.read_text())
         arch_kwargs = {k: v for k, v in arch.items() if k != "max_len"}
         print(f"[load_model] using architecture from {arch_path.name}: {arch_kwargs}")
-    model = CharCNNTransformer(vocab_size=vocab_size, num_classes=len(CLASSES), max_len=max_len,
+    model = build_model(vocab_size=vocab_size, num_classes=len(CLASSES), max_len=max_len,
                                 **arch_kwargs).to(device)
     state = torch.load(checkpoint_path, map_location=device)
     model.load_state_dict(state)
