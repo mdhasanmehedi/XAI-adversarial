@@ -1,0 +1,5 @@
+defense,clean_acc,robust_acc_vs_guided,asr_vs_guided,median_edit_cost_vs_guided
+none_seed0,0.979,0.3092,0.6908,3.0
+fgm_seed0,0.981,0.6984,0.3016,6.0
+charaug_seed0,0.9783,0.8206,0.1794,5.0
+combined_seed0,0.9815,0.7657,0.2343,6.0
