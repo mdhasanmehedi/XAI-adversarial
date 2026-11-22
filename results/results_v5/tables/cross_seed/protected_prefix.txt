@@ -1,0 +1,25 @@
+    mode     ranker  n_seeds  asr_mean  asr_sd  seeds_ig_higher  seeds_sig_vs_ig_fdr  seeds_above_random  seeds_sig_vs_random_fdr
+adaptive  occlusion        5    0.1960  0.0445              0.0                  4.0                 5.0                      5.0
+adaptive         ig        5    0.1316  0.0240              NaN                  NaN                 5.0                      5.0
+adaptive   saliency        5    0.1268  0.0331              2.0                  1.0                 5.0                      5.0
+adaptive gradxinput        5    0.1224  0.0131              4.0                  0.0                 5.0                      5.0
+adaptive     random        5    0.0596  0.0218              5.0                  5.0                 NaN                      NaN
+one_shot  occlusion        5    0.1492  0.0364              0.0                  1.0                 5.0                      5.0
+one_shot         ig        5    0.1204  0.0195              NaN                  NaN                 5.0                      5.0
+one_shot gradxinput        5    0.1184  0.0395              3.0                  1.0                 5.0                      5.0
+one_shot   saliency        5    0.1120  0.0190              4.0                  0.0                 5.0                      5.0
+one_shot     random        5    0.0568  0.0067              5.0                  5.0                 NaN                      NaN
+
+per-seed ASR:
+seed                     0      1      2      3      4
+mode     ranker                                       
+adaptive gradxinput  0.110  0.110  0.120  0.138  0.134
+         ig          0.116  0.108  0.128  0.170  0.136
+         occlusion   0.186  0.140  0.200  0.264  0.190
+         random      0.048  0.036  0.056  0.094  0.064
+         saliency    0.132  0.070  0.132  0.154  0.146
+one_shot gradxinput  0.104  0.084  0.084  0.170  0.150
+         ig          0.110  0.100  0.120  0.152  0.120
+         occlusion   0.134  0.118  0.138  0.212  0.144
+         random      0.054  0.050  0.056  0.068  0.056
+         saliency    0.088  0.118  0.100  0.138  0.116

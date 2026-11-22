@@ -1,0 +1,32 @@
+seed 0: V0 reference baseline = domain_path_tld_transform
+seed 1: V0 reference baseline = domain_path_tld_transform
+seed 2: V0 reference baseline = domain_path_tld_transform
+seed 3: V0 reference baseline = domain_path_tld_transform
+seed 4: V0 reference baseline = domain_path_tld_transform
+setting guidance     method                   comparator  method_only  comparator_only      p_exact
+     V0 one_shot         ig                       random          353               87 4.621255e-39
+     V0 one_shot         ig           Reference baseline          280              132 2.456963e-13
+     V0 one_shot ig_initial           Reference baseline          280              132 2.456963e-13
+     V0 one_shot  occlusion           Reference baseline          369               91 9.575295e-41
+     V0 one_shot   saliency           Reference baseline          201              223 3.077960e-01
+     V0 one_shot gradxinput           Reference baseline          232              192 5.809603e-02
+     V0 one_shot     random           Reference baseline          127              245 9.556652e-10
+     V0 adaptive         ig                       random          309              110 5.774481e-23
+     V0 adaptive         ig           Reference baseline          255              159 2.746439e-06
+     V0 adaptive ig_initial           Reference baseline          255              159 2.746439e-06
+     V0 adaptive  occlusion           Reference baseline          376               73 3.193751e-50
+     V0 adaptive   saliency           Reference baseline          251              204 3.093097e-02
+     V0 adaptive gradxinput           Reference baseline          242              199 4.537766e-02
+     V0 adaptive     random           Reference baseline          114              217 1.595821e-08
+     V1 one_shot         ig                       random          215               56 3.884662e-23
+     V1 one_shot         ig Protected reference baseline          207               84 3.824401e-13
+     V1 one_shot  occlusion Protected reference baseline          269               74 3.834680e-27
+     V1 one_shot   saliency Protected reference baseline          192               90 1.201244e-09
+     V1 one_shot gradxinput Protected reference baseline          199               81 1.259859e-12
+     V1 one_shot     random Protected reference baseline           78              114 1.134549e-02
+     V1 adaptive         ig                       random          239               59 7.542297e-27
+     V1 adaptive         ig Protected reference baseline          240               89 3.676480e-17
+     V1 adaptive  occlusion Protected reference baseline          372               60 4.715737e-56
+     V1 adaptive   saliency Protected reference baseline          227               88 2.634113e-15
+     V1 adaptive gradxinput Protected reference baseline          221               93 3.621599e-13
+     V1 adaptive     random Protected reference baseline           88              117 5.024627e-02

@@ -1,0 +1,11 @@
+mode,ranker,n_seeds,asr_mean,asr_sd,seeds_ig_higher,seeds_sig_vs_ig_fdr,seeds_above_random,seeds_sig_vs_random_fdr
+adaptive,occlusion,5,0.196,0.044474711915874175,0.0,4.0,5.0,5.0
+adaptive,ig,5,0.1316,0.024016660883644923,,,5.0,5.0
+adaptive,saliency,5,0.1268,0.03312400941915093,2.0,1.0,5.0,5.0
+adaptive,gradxinput,5,0.1224,0.013145341380123993,4.0,0.0,5.0,5.0
+adaptive,random,5,0.0596,0.02183575050232989,5.0,5.0,,
+one_shot,occlusion,5,0.1492,0.03640329655402103,0.0,1.0,5.0,5.0
+one_shot,ig,5,0.1204,0.019514097468240746,,,5.0,5.0
+one_shot,gradxinput,5,0.11840000000000002,0.03948164130326904,3.0,1.0,5.0,5.0
+one_shot,saliency,5,0.11200000000000002,0.01902629759044045,4.0,0.0,5.0,5.0
+one_shot,random,5,0.0568,0.006723094525588645,5.0,5.0,,

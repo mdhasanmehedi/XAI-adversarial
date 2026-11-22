@@ -1,0 +1,27 @@
+setting,guidance,method,comparator,method_only,comparator_only,p_exact
+V0,one_shot,ig,random,353,87,4.621254673043282e-39
+V0,one_shot,ig,Reference baseline,280,132,2.456963251067511e-13
+V0,one_shot,ig_initial,Reference baseline,280,132,2.456963251067511e-13
+V0,one_shot,occlusion,Reference baseline,369,91,9.575295245414299e-41
+V0,one_shot,saliency,Reference baseline,201,223,0.3077960074977862
+V0,one_shot,gradxinput,Reference baseline,232,192,0.058096030860007565
+V0,one_shot,random,Reference baseline,127,245,9.556651839221769e-10
+V0,adaptive,ig,random,309,110,5.774481096915081e-23
+V0,adaptive,ig,Reference baseline,255,159,2.7464392142631725e-06
+V0,adaptive,ig_initial,Reference baseline,255,159,2.7464392142631725e-06
+V0,adaptive,occlusion,Reference baseline,376,73,3.193750522603708e-50
+V0,adaptive,saliency,Reference baseline,251,204,0.030930967470701523
+V0,adaptive,gradxinput,Reference baseline,242,199,0.04537766161885943
+V0,adaptive,random,Reference baseline,114,217,1.595821129623185e-08
+V1,one_shot,ig,random,215,56,3.8846620561552675e-23
+V1,one_shot,ig,Protected reference baseline,207,84,3.824401362775896e-13
+V1,one_shot,occlusion,Protected reference baseline,269,74,3.8346804296534585e-27
+V1,one_shot,saliency,Protected reference baseline,192,90,1.2012437560890562e-09
+V1,one_shot,gradxinput,Protected reference baseline,199,81,1.2598593589333865e-12
+V1,one_shot,random,Protected reference baseline,78,114,0.0113454913029237
+V1,adaptive,ig,random,239,59,7.54229711008941e-27
+V1,adaptive,ig,Protected reference baseline,240,89,3.6764801279132445e-17
+V1,adaptive,occlusion,Protected reference baseline,372,60,4.715737479522671e-56
+V1,adaptive,saliency,Protected reference baseline,227,88,2.634113078667192e-15
+V1,adaptive,gradxinput,Protected reference baseline,221,93,3.621598784983125e-13
+V1,adaptive,random,Protected reference baseline,88,117,0.050246265652367936

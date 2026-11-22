@@ -1,0 +1,35 @@
+
+=== ranker means over seeds ===
+                     deletion_auc  comprehensiveness  sufficiency     asr
+mode     ranker                                                          
+adaptive occlusion         0.4802             0.4725       0.2835  0.1960
+         ig                0.5066             0.4045       0.3442  0.1316
+         saliency          0.5870             0.2918       0.3843  0.1268
+         gradxinput        0.5697             0.2836       0.4840  0.1224
+         random            0.6362             0.0966       0.5954  0.0596
+one_shot occlusion         0.4802             0.4725       0.2835  0.1492
+         ig                0.5066             0.4045       0.3442  0.1204
+         gradxinput        0.5697             0.2836       0.4840  0.1184
+         saliency          0.5870             0.2918       0.3843  0.1120
+         random            0.6362             0.0966       0.5954  0.0568
+
+=== method-level correlation with ASR ===
+    mode            metric expected_sign  pooled_rho  pooled_p  n_points  mean_within_seed_rho  seeds_with_expected_sign  n_seeds
+adaptive      deletion_auc      negative     -0.4667    0.0187        25               -0.8600                         5        5
+adaptive comprehensiveness      positive      0.6883    0.0001        25                0.8800                         5        5
+adaptive       sufficiency      negative     -0.5221    0.0074        25               -0.9000                         5        5
+one_shot      deletion_auc      negative     -0.5187    0.0079        25               -0.7329                         5        5
+one_shot comprehensiveness      positive      0.6477    0.0005        25                0.7729                         5        5
+one_shot       sufficiency      negative     -0.4209    0.0362        25               -0.7442                         5        5
+
+=== URL-level Spearman(deletion_auc, success), pooled over seeds, per ranker/mode ===
+adaptive  gradxinput  rho=-0.140 p=1.97e-12 n=2500
+adaptive  ig          rho=-0.135 p=1.17e-11 n=2500
+adaptive  occlusion   rho=-0.145 p=2.72e-13 n=2500
+adaptive  random      rho=-0.081 p=5.05e-05 n=2500
+adaptive  saliency    rho=-0.151 p=2.86e-14 n=2500
+one_shot  gradxinput  rho=-0.136 p=8.15e-12 n=2500
+one_shot  ig          rho=-0.123 p=7.11e-10 n=2500
+one_shot  occlusion   rho=-0.162 p=3.69e-16 n=2500
+one_shot  random      rho=-0.084 p=2.39e-05 n=2500
+one_shot  saliency    rho=-0.162 p=4.08e-16 n=2500

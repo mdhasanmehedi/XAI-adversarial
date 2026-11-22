@@ -1,0 +1,85 @@
+ seed     mode  n_urls  hotflip_asr                                 compared_with  other_asr  hotflip_only  other_only  mcnemar_p   p_BH
+seed0 one_shot     500        0.214          reference_baseline(random_insertion)      0.056            80           1     0.0000 0.0000
+seed0 one_shot     500        0.214                                        random      0.054            87           7     0.0000 0.0000
+seed0 one_shot     500        0.214                                      saliency      0.088            73          10     0.0000 0.0000
+seed0 one_shot     500        0.214                                    gradxinput      0.104            72          17     0.0000 0.0000
+seed0 one_shot     500        0.214                                            ig      0.110            65          13     0.0000 0.0000
+seed0 one_shot     500        0.214                                     occlusion      0.134            65          25     0.0000 0.0000
+seed0 adaptive     500        0.288          reference_baseline(random_insertion)      0.056           118           2     0.0000 0.0000
+seed0 adaptive     500        0.288                                        random      0.048           124           4     0.0000 0.0000
+seed0 adaptive     500        0.288                                      saliency      0.132           104          26     0.0000 0.0000
+seed0 adaptive     500        0.288                                    gradxinput      0.110           109          20     0.0000 0.0000
+seed0 adaptive     500        0.288                                            ig      0.116           100          14     0.0000 0.0000
+seed0 adaptive     500        0.288                                     occlusion      0.186            80          29     0.0000 0.0000
+seed1 one_shot     500        0.264 reference_baseline(domain_path_tld_transform)      0.062           106           5     0.0000 0.0000
+seed1 one_shot     500        0.264                                        random      0.050           111           4     0.0000 0.0000
+seed1 one_shot     500        0.264                                      saliency      0.118            81           8     0.0000 0.0000
+seed1 one_shot     500        0.264                                    gradxinput      0.084            95           5     0.0000 0.0000
+seed1 one_shot     500        0.264                                            ig      0.100            93          11     0.0000 0.0000
+seed1 one_shot     500        0.264                                     occlusion      0.118            93          20     0.0000 0.0000
+seed1 adaptive     500        0.310 reference_baseline(domain_path_tld_transform)      0.062           129           5     0.0000 0.0000
+seed1 adaptive     500        0.310                                        random      0.036           139           2     0.0000 0.0000
+seed1 adaptive     500        0.310                                      saliency      0.070           123           3     0.0000 0.0000
+seed1 adaptive     500        0.310                                    gradxinput      0.110           107           7     0.0000 0.0000
+seed1 adaptive     500        0.310                                            ig      0.108           113          12     0.0000 0.0000
+seed1 adaptive     500        0.310                                     occlusion      0.140           106          21     0.0000 0.0000
+seed2 one_shot     500        0.230      reference_baseline(segment_manipulation)      0.052            94           5     0.0000 0.0000
+seed2 one_shot     500        0.230                                        random      0.056            93           6     0.0000 0.0000
+seed2 one_shot     500        0.230                                      saliency      0.100            86          21     0.0000 0.0000
+seed2 one_shot     500        0.230                                    gradxinput      0.084            79           6     0.0000 0.0000
+seed2 one_shot     500        0.230                                            ig      0.120            76          21     0.0000 0.0000
+seed2 one_shot     500        0.230                                     occlusion      0.138            64          18     0.0000 0.0000
+seed2 adaptive     500        0.330      reference_baseline(segment_manipulation)      0.052           146           7     0.0000 0.0000
+seed2 adaptive     500        0.330                                        random      0.056           140           3     0.0000 0.0000
+seed2 adaptive     500        0.330                                      saliency      0.132           111          12     0.0000 0.0000
+seed2 adaptive     500        0.330                                    gradxinput      0.120           114           9     0.0000 0.0000
+seed2 adaptive     500        0.330                                            ig      0.128           115          14     0.0000 0.0000
+seed2 adaptive     500        0.330                                     occlusion      0.200            90          25     0.0000 0.0000
+seed3 one_shot     500        0.364       reference_baseline(random_substitution)      0.090           143           6     0.0000 0.0000
+seed3 one_shot     500        0.364                                        random      0.068           151           3     0.0000 0.0000
+seed3 one_shot     500        0.364                                      saliency      0.138           128          15     0.0000 0.0000
+seed3 one_shot     500        0.364                                    gradxinput      0.170           112          15     0.0000 0.0000
+seed3 one_shot     500        0.364                                            ig      0.152           118          12     0.0000 0.0000
+seed3 one_shot     500        0.364                                     occlusion      0.212            93          17     0.0000 0.0000
+seed3 adaptive     500        0.348       reference_baseline(random_substitution)      0.090           134           5     0.0000 0.0000
+seed3 adaptive     500        0.348                                        random      0.094           133           6     0.0000 0.0000
+seed3 adaptive     500        0.348                                      saliency      0.154           113          16     0.0000 0.0000
+seed3 adaptive     500        0.348                                    gradxinput      0.138           117          12     0.0000 0.0000
+seed3 adaptive     500        0.348                                            ig      0.170           113          24     0.0000 0.0000
+seed3 adaptive     500        0.348                                     occlusion      0.264            76          34     0.0001 0.0001
+seed4 one_shot     500        0.250      reference_baseline(segment_manipulation)      0.096            88          11     0.0000 0.0000
+seed4 one_shot     500        0.250                                        random      0.056           104           7     0.0000 0.0000
+seed4 one_shot     500        0.250                                      saliency      0.116            82          15     0.0000 0.0000
+seed4 one_shot     500        0.250                                    gradxinput      0.150            73          23     0.0000 0.0000
+seed4 one_shot     500        0.250                                            ig      0.120            82          17     0.0000 0.0000
+seed4 one_shot     500        0.250                                     occlusion      0.144            76          23     0.0000 0.0000
+seed4 adaptive     500        0.324      reference_baseline(segment_manipulation)      0.096           127          13     0.0000 0.0000
+seed4 adaptive     500        0.324                                        random      0.064           135           5     0.0000 0.0000
+seed4 adaptive     500        0.324                                      saliency      0.146           119          30     0.0000 0.0000
+seed4 adaptive     500        0.324                                    gradxinput      0.134           120          25     0.0000 0.0000
+seed4 adaptive     500        0.324                                            ig      0.136           123          29     0.0000 0.0000
+seed4 adaptive     500        0.324                                     occlusion      0.190           101          34     0.0000 0.0000
+
+Mean ASR over seeds (hotflip vs each comparator):
+                                                        hotflip_asr  other_asr  seeds_hotflip_sig_higher  seeds_hotflip_sig_lower
+mode     compared_with                                                                                                           
+adaptive gradxinput                                          0.3200     0.1224                         5                        0
+         ig                                                  0.3200     0.1316                         5                        0
+         occlusion                                           0.3200     0.1960                         5                        0
+         random                                              0.3200     0.0596                         5                        0
+         reference_baseline(domain_path_tld_transform)       0.3100     0.0620                         1                        0
+         reference_baseline(random_insertion)                0.2880     0.0560                         1                        0
+         reference_baseline(random_substitution)             0.3480     0.0900                         1                        0
+         reference_baseline(segment_manipulation)            0.3270     0.0740                         2                        0
+         saliency                                            0.3200     0.1268                         5                        0
+one_shot gradxinput                                          0.2644     0.1184                         5                        0
+         ig                                                  0.2644     0.1204                         5                        0
+         occlusion                                           0.2644     0.1492                         5                        0
+         random                                              0.2644     0.0568                         5                        0
+         reference_baseline(domain_path_tld_transform)       0.2640     0.0620                         1                        0
+         reference_baseline(random_insertion)                0.2140     0.0560                         1                        0
+         reference_baseline(random_substitution)             0.3640     0.0900                         1                        0
+         reference_baseline(segment_manipulation)            0.2400     0.0740                         2                        0
+         saliency                                            0.2644     0.1120                         5                        0
+
+Written to results_v5/tables/cross_seed/hotflip_vs_rankers_protected.csv

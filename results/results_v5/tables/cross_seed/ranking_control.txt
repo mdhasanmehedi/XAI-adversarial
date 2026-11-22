@@ -1,0 +1,13 @@
+    mode      ranker  asr_mean  asr_sd  n_seeds  base_minus_variant_mean  seeds_base_higher  seeds_sig_vs_base_fdr  seeds_variant_above_ref  seeds_sig_vs_ref_fdr
+adaptive   occlusion    0.2728  0.0767        5                  -0.0828                0.0                    5.0                        5                     4
+adaptive          ig    0.1900  0.0276        5                      NaN                NaN                    NaN                        4                     3
+adaptive ig_original    0.1900  0.0276        5                   0.0000                0.0                    0.0                        4                     3
+adaptive    saliency    0.1704  0.0477        5                   0.0196                3.0                    3.0                        4                     2
+adaptive  gradxinput    0.1688  0.0351        5                   0.0212                4.0                    2.0                        4                     2
+adaptive      random    0.1104  0.0190        5                   0.0796                5.0                    5.0                        0                     3
+one_shot   occlusion    0.2628  0.0500        5                  -0.0520                0.0                    3.0                        5                     4
+one_shot          ig    0.2108  0.0513        5                      NaN                NaN                    NaN                        5                     3
+one_shot ig_original    0.2108  0.0513        5                   0.0000                0.0                    0.0                        5                     3
+one_shot  gradxinput    0.1676  0.0300        5                   0.0432                4.0                    3.0                        4                     3
+one_shot    saliency    0.1428  0.0125        5                   0.0680                4.0                    4.0                        2                     2
+one_shot      random    0.1044  0.0149        5                   0.1064                5.0                    5.0                        0                     3
