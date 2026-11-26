@@ -1,0 +1,4 @@
+seed,accuracy,macro_f1,f1_benign,f1_phishing,f1_malware,f1_defacement,checkpoint
+0,0.9625,0.9625,0.963,0.962,0.0,0.0,../runs/runs_gram/model_seed0.pt
+1,0.9635,0.9635,0.9639,0.9631,0.0,0.0,../runs/runs_gram/model_seed1.pt
+2,0.9653,0.9652,0.9657,0.9648,0.0,0.0,../runs/runs_gram/model_seed2.pt
