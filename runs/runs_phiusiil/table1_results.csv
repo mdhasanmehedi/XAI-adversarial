@@ -1,0 +1,4 @@
+seed,accuracy,macro_f1,f1_benign,f1_phishing,f1_malware,f1_defacement,checkpoint
+0,0.9973,0.9972,0.9976,0.9967,0.0,0.0,../runs/runs_phiusiil/model_seed0.pt
+1,0.9978,0.9977,0.9981,0.9974,0.0,0.0,../runs/runs_phiusiil/model_seed1.pt
+2,0.9973,0.9972,0.9976,0.9967,0.0,0.0,../runs/runs_phiusiil/model_seed2.pt
