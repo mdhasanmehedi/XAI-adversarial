@@ -80,7 +80,7 @@ XAI-adversarial/
 ├── run_v5_mac.sh, analyze_v5.sh     # functional-validity re-run of the main-corpus attacks
 ├── analyze_syntactic_main.sh       # cross-seed analyses of the syntactic-predicate main-corpus results
 ├── run_v6_mac.sh                    # functional-validity re-run of the GramBeddings and BiLSTM replications
-├── apply_bilstm_patch.py, analyze_bilstm.sh   # BiLSTM option (already applied to src/model.py and src/train.py)
+├── analyze_bilstm.sh                # BiLSTM replication analysis
 ├── src/
 │   ├── model.py, train.py, data_prep.py, aggregate_cross_seed.py
 │   ├── prep_phiusiil.py, prep_grambeddings.py, run_*_pipeline.sh, analyze_*.sh
